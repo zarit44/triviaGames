@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My trivia game</title>
+  <link href="styles.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <h1>MOVIES TRIVIA!</h1>
+
+</head>
+
+<body style="background: url(https://cdn.pixabay.com/photo/2016/09/08/15/35/abstract-1654671_1280.jpg)">
+  
+  <script src = "app.js"></script>
+  
+  <div id="main"> 
+  <form id = "quiz" name = "quiz">
+    <div id="counter"></div>
+<p id="q1"><h3>Which actress played the character Jules in the movie SuperBad?</h3></p>
+<input type = "radio" id = "mc" name="question1" value="Emma Stone">Emma Stone<br>
+<input type = "radio" id = "mc" name="question1" value="Natalie Portman">Natalie Portman<br>
+<input type = "radio" id = "mc" name="question1" value="Emma Watson">Emma Watson<br>
+<input type = "radio" id = "mc" name="question1" value="Emilia Clarke">Emilia Clarke<br>
+<p id="q2"><h3>What actor was voted sexiest man alive?</h3></p2>
+<input type = "radio" id = "mc" name="question2" value="George Clooney">George Clooney<br>
+<input type = "radio" id = "mc" name="question2" value="Denzel Washington">Denzel Washington<br>
+<input type = "radio" id = "mc" name="question2" value="Idris Elba">Idris Elba<br>
+<input type = "radio" id = "mc" name="question2" value="Jason Statham">Jason Statham<br><br>
+<p id="q3"><h3>Which is a movie?</h3></p>
+<input type = "radio" id = "mc" name="question3" value="Game of Thrones">Game of Thrones<br>
+<input type = "radio" id = "mc" name="question3" value="West World">West World<br>
+<input type = "radio" id = "mc" name="question3" value="Sharp Objects">Sharp Objects<br>
+<input type = "radio" id = "mc" name="question3" value="The Wolf of Wall Street">The Wolf of Wall Street<br>
+<p id="q4"><h3>Where does the movie La La Land take place?</h3></p>
+<input type = "radio" id = "mc" name="question4" value="Texas">Texas<br>
+<input type = "radio" id = "mc" name="question4" value="Los Angekes">Los Angeles<br>
+<input type = "radio" id = "mc" name="question4" value="London">London<br>
+<input type = "radio" id = "mc" name="question4" value="New York">New York<br>
+<p id="q5"><h3>Who does the voice of Simba in the live-action Lion King?</h3></p>
+<input type = "radio" id = "mc" name="question5" value="Donald Glover">Donald Glover<br>
+<input type = "radio" id = "mc" name="question5" value="Mahershala Ali">Mahershala Ali<br>
+<input type = "radio" id = "mc" name="question5" value="Jamie Foxx">Jamie Foxx<br>
+<input type = "radio" id = "mc" name="question5" value="Samuel L Jackson">Samuel L Jackson<br>
+<p id="q6"><h3>What movie did Quentin Tarantino direct?</h3></p>
+<input type = "radio" id = "mc" name="question6" value="Us">Us<br>
+<input type = "radio" id = "mc" name="question6" value="Me Before You">Me Before You<br>
+<input type = "radio" id = "mc" name="question6" value="Aladdin">Aladdin<br>
+<input type = "radio" id = "mc" name="question6" value="Kill Bill">Kill Bill<br>
+<p id="q7"><h3>Who did Kristen Bell do the voice for in the movie "Frozen"?</h3></p>
+<input type = "radio" id = "mc" name="question7" value="Anna">Anna<br>
+<input type = "radio" id = "mc" name="question7" value="Elsa">Elsa<br>
+<input type = "radio" id = "mc" name="question7" value="Olaf">Olaf<br>
+<input type = "radio" id = "mc" name="question7" value="Kristoff">Kristoff<br>
+<p id="q8"><h3>What year did the first Men in Black movie come out?</h3></p>
+<input type = "radio" id = "mc" name="question8" value="1989">1989<br>
+<input type = "radio" id = "mc" name="question8" value="2003">2003<br>
+<input type = "radio" id = "mc" name="question8" value="1997">1997<br>
+<input type = "radio" id = "mc" name="question8" value="2001">2001<br>
+
+
+<input id = "button" type = "button" value = "SUBMIT IT!" onclick = "check();">
+  </form>
+
+<div id ="after">
+  <p id = "numberCorrect"></p>
+</div>
+
+
+</div>
+      </body>
+
+
+
+</html>
